@@ -4,7 +4,7 @@
       <router-link to="/">Home</router-link>|
       <router-link to="/dashboard/about/bar">About</router-link>|
       <router-link to="/dashboard/page">page</router-link>|
-      <router-link to="/dashboard/user/3/js?foo=bar">user</router-link>|
+      <router-link to="/dashboard/user/3/js?userfoo=bar">user</router-link>|
       <router-link to="/dashboard/contant/1/vue?foo=bar">Contant</router-link>|
       <router-link to="/login">Login</router-link>
     </div>

@@ -8,9 +8,9 @@ Vue.use(VueRouter)
 function propsFn(route) {
   const { params, query } = route
   return {
-    id: params.id,
-    msg: params.msg,
-    foo: query.foo
+    userid: params.userid,
+    usermsg: params.usermsg,
+    userfoo: query.userfoo
   }
 }
 
@@ -40,7 +40,7 @@ const routes = [
         component: () => import(/* webpackChunkName: "page" */ '../views/Page.vue')
       },
       {
-        path: 'user/:id/:msg',
+        path: 'user/:userid/:usermsg',
         name: 'user',
         props: propsFn,
         component: () => import(/* webpackChunkName: "user" */ '../views/User.vue')

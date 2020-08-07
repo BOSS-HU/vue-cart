@@ -1,15 +1,15 @@
 <template>
   <div>
     <p>我是user页面</p>
-    <p>{{id}}</p>
-    <p>{{msg}}</p>
-    <p>{{foo}}</p>
+    <p>{{userid}}</p>
+    <p>{{usermsg}}</p>
+    <p>{{userfoo}}</p>
   </div>
 </template>
 
 <script>
 export default {
-  props: ["id", "msg", "foo"],
+  props: ["userid", "usermsg", "userfoo"],
 };
 </script>
 
